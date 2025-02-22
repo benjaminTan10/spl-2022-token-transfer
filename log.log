@@ -1,0 +1,28 @@
+spl-token create-token --program-id TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb --enable-metadata  --decimals  6
+Creating token FrQ9tE1VKEfce8SLxXw7nKsR5THEbrDYTD5aecgaXkpF under program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb
+To initialize metadata inside the mint, please run `spl-token initialize-metadata FrQ9tE1VKEfce8SLxXw7nKsR5THEbrDYTD5aecgaXkpF <YOUR_TOKEN_NAME> <YOUR_TOKEN_SYMBOL> <YOUR_TOKEN_URI>`, and sign with the mint authority.N_URI>`, and sign with the mint authority.
+
+Address:  FrQ9tE1VKEfce8SLxXw7nKsR5THEbrDYTD5aecgaXkpF
+Decimals:  6
+
+Signature: 3F3K9yh3E922MsMW9ydANpcyEAieR2TTdCYjaBCe1Q5td3kuPQ2x3ENqFhQgs14dNAUnK86DjtiUcfSRaZSAKf1m
+
+
+pc@DESKTOP-UCA8UH5 MINGW64 /d/0_project/spl-2022
+$   spl-token create-token FrQ9tE1VKEfce8SLxXw7nKsR5THEbrDYTD5aecgaXkpF
+error: missing signature for supplied pubkey: FrQ9tE1VKEfce8SLxXw7nKsR5THEbrDYTD5aecgaXkpF
+
+pc@DESKTOP-UCA8UH5 MINGW64 /d/0_project/spl-2022
+$ spl-token create-account FrQ9tE1VKEfce8SLxXw7nKsR5THEbrDYTD5aecgaXkpF
+Creating account 22TguSDbgSfBpYZVvhvaiT7Ux1a8aXHqxomzCVzwp3sX
+
+Signature: 54TqE9U7wYuxnEmrFfxj9wX1C9WNxXKnAVTCpodVLNjLsj3uWywGvYk9Qy14gs8UbP4B3QbvsbhnqxaHVj4uaFZ7
+
+
+pc@DESKTOP-UCA8UH5 MINGW64 /d/0_project/spl-2022
+$ spl-token mint FrQ9tE1VKEfce8SLxXw7nKsR5THEbrDYTD5aecgaXkpF 1000000000  22TguSDbgSfBpYZVvhvaiT7Ux1a8aXHqxomzCVzwp3sX
+Minting 1000000000 tokens
+  Token: FrQ9tE1VKEfce8SLxXw7nKsR5THEbrDYTD5aecgaXkpF
+  Recipient: 22TguSDbgSfBpYZVvhvaiT7Ux1a8aXHqxomzCVzwp3sX
+
+Signature: 462ysFoaPvd1Sj4cN32gcmKxCP27h6V9zGn91guXHJEvDSHD9DUWEuvc7T6xmFkJ2uKUCuqdEE4QpY5ua6bawq4V
